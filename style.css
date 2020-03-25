@@ -1,0 +1,134 @@
+/* Global styles & resets */
+body {
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+
+p,
+button,
+a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+section#intro {
+  background-image: url('./img/fundo_bolinha.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 30px 30px 20px 250px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  width: 35%;
+  display: flex;
+  margin: 0 165px;
+  padding: 0;
+  list-style: none;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  font-size: 12px;
+  font-weight: 600;
+  color: #3f495f;
+}
+
+main {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+main p {
+  font-size: 12px;
+  max-width: 420px;
+  margin: 40px 0;
+  color: #3f495f;
+}
+
+#intro-image {
+  width: 43%;
+  box-sizing: border-box;
+}
+
+#logo {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 24px;
+  color: #00184c;
+}
+
+#logo b {
+  color: #f14338;
+}
+
+main #title {
+  max-width: 560px;
+}
+
+#intro h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #f14338;
+}
+
+#intro h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 50px;
+  color: #00184c;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 260px;
+}
+
+button#learn {
+  background: #f14338;
+  border: 4px solid #cc2421;
+  border-radius: 50px;
+  padding: 15px 60px;
+}
+
+button#learn a {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  color: #fff;
+}
+
+button#learn {
+  background: #f14338;
+  border: 4px solid #cc2228;
+  border-radius: 40px;
+  padding: 10px 60px;
+}
+
+button#play {
+  background: #3f8eec;
+  border: 4px solid #3366d6;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+i.material-icons {
+  color: #fff;
+  margin: auto;
+}
