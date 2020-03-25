@@ -20,6 +20,8 @@ h2 {
   margin: 0;
 }
 
+/* First section -> intro */
+
 section#intro {
   background-image: url('./img/fundo_bolinha.png');
   background-repeat: no-repeat;
@@ -27,6 +29,8 @@ section#intro {
   padding: 30px 30px 20px 250px;
   box-sizing: border-box;
 }
+
+/* Intro -> navbar */
 
 nav {
   display: flex;
@@ -49,24 +53,6 @@ nav ul li a {
   color: #3f495f;
 }
 
-main {
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-}
-
-main p {
-  font-size: 12px;
-  max-width: 420px;
-  margin: 40px 0;
-  color: #3f495f;
-}
-
-#intro-image {
-  width: 43%;
-  box-sizing: border-box;
-}
-
 #logo {
   font-family: 'Libre Baskerville', serif;
   font-size: 24px;
@@ -75,6 +61,23 @@ main p {
 
 #logo b {
   color: #f14338;
+}
+
+/* Intro -> main */
+
+main {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* main -> title -> text elements */
+
+main p {
+  font-size: 12px;
+  max-width: 420px;
+  margin: 40px 0;
+  color: #3f495f;
 }
 
 main #title {
@@ -93,6 +96,15 @@ main #title {
   font-size: 50px;
   color: #00184c;
 }
+
+/* main -> title -> intro-image*/
+
+#intro-image {
+  width: 43%;
+  box-sizing: border-box;
+}
+
+/* main -> title -> buttons */
 
 #buttons {
   display: flex;
