@@ -78,6 +78,7 @@ main p {
   max-width: 420px;
   margin: 40px 0;
   color: #3f495f;
+  line-height: 20px;
 }
 
 main #title {
@@ -109,7 +110,7 @@ main #title {
 #buttons {
   display: flex;
   justify-content: space-between;
-  max-width: 260px;
+  max-width: 280px;
 }
 
 button#learn {
@@ -124,6 +125,7 @@ button#learn a {
   font-size: 11px;
   font-weight: 600;
   color: #fff;
+  letter-spacing: 1px;
 }
 
 button#learn {
