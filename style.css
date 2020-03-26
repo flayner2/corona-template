@@ -5,6 +5,11 @@ body {
   padding: 0;
 }
 
+button {
+  cursor: pointer;
+  outline: none;
+}
+
 p,
 button,
 a {
@@ -26,6 +31,7 @@ section#intro {
   background-image: url('./img/fundo_bolinha.png');
   background-repeat: no-repeat;
   width: 100%;
+  height: 100vh;
   padding: 30px 30px 20px 250px;
   box-sizing: border-box;
 }
@@ -47,10 +53,35 @@ nav ul {
   justify-content: space-between;
 }
 
+nav ul li {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li a:hover {
+  opacity: 0.7;
+}
+
+nav ul li#selected-parent {
+  margin-top: 3px;
+}
+
+nav li div#selected {
+  height: 5px;
+  margin-bottom: 0;
+  margin-left: 30%;
+  box-sizing: border-box;
+  width: 15px;
+  border-bottom: 3px solid #f14338;
+  border-radius: 2px;
+}
+
 nav ul li a {
   font-size: 12px;
   font-weight: 600;
   color: #3f495f;
+  transition: opacity 0.1s;
 }
 
 #logo {
@@ -101,7 +132,7 @@ main #title {
 /* main -> title -> intro-image*/
 
 #intro-image {
-  width: 43%;
+  height: 520px;
   box-sizing: border-box;
 }
 
@@ -118,6 +149,11 @@ button#learn {
   border: 4px solid #cc2421;
   border-radius: 50px;
   padding: 15px 60px;
+  transition: filter 0.2s;
+}
+
+button#learn:hover {
+  filter: brightness(90%);
 }
 
 button#learn a {
@@ -140,6 +176,11 @@ button#play {
   border: 4px solid #3366d6;
   border-radius: 50%;
   padding: 8px 10px;
+  transition: filter 0.2s;
+}
+
+button#play:hover {
+  filter: brightness(90%);
 }
 
 i.material-icons {
